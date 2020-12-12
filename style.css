@@ -1,0 +1,74 @@
+body{
+    background-color: #f2780c;
+    font-family: 'Texturina', serif;
+}
+
+#headerdiv{
+    background-color: #E1C699;
+    color: #f2a90c;
+}
+
+#headerdiv img{
+    width: 100px;
+    border-radius: 100px;
+    margin-left:20px ;
+}
+
+.main_div{
+    background-color:#f2a90c;
+    padding:10px;
+    margin-top:10px;
+    border:5px ridge #E1C699;
+}
+
+.main_div label{
+    background-color:#E1C699;
+    color:#f2a90c;
+    width: 300px;
+    padding:10px;
+    box-shadow: 5px 5px 20px #f2780c;
+
+}
+
+#camera,#Snapshot{
+    border: 3px ridge #f2780c;
+    width: 300px;
+    height:300px ;
+    box-shadow:5px 5px 20px #f2780c;
+}
+
+.main_div button{
+    width: 300px;
+    font-size:18px;
+    box-shadow:5px 5px 20px #f2780c;
+    border: 4px ridge #f5ae0a;
+}
+
+.output_div{
+    background-color: beige;
+    color:orange;
+    box-shadow:10px 10px 20px orange;
+    border-radius:10px;
+    margin-bottom:20px;
+    margin-top:20px;
+    align-items:left;
+}
+
+.output_div h4{
+    padding: 5px;
+
+}
+.output_div img{
+width:100px;
+height:100px;
+}
+#footer_div{
+position: fixed;
+bottom:0;
+width: 100%;
+background-color:white;
+color:black;
+text-align:center;
+line-height: 3;
+font-size: 20px;
+}
